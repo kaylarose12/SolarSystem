@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A-Frame Solar System Lab</title>
+        <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <img src="https://pixabay.com/get/eb37b00e2dfc083ed1534705fb0938c9bd22ffd41cb1114396f7c679a6/star-2211589_1920.jpg" id="skyTexture">
+            </a-assets>
+            <a-sky src="space3.jpg"></a-sky>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 .2" radius=".2" src="mercury.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 .9" radius=".45" src="venus.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 2" radius=".5" src="earth.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 3" radius=".25" src="mars.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 10" radius="5.6" src="jupiter.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 22" radius="4.75" src="saturn2.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 30" radius="2" src="uranus.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            
+            <a-entity>
+            <a-sphere position="0 1.25 37" radius="1.95" src="neptune.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            </a-entity>
+            
+            <a-entity>
+            <a-sphere position="0 1.25 39.5" radius=".1" src="pluto.jpg"><a-animation attribute="rotation" dur="2000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation></a-sphere>
+            <a-animation attribute="rotation" dur="5000" from="0 0 0" to="0 360 0" repeat="indefinite" delay="0" easing="ease-in"></a-animation>
+            
+            </a-entity>
+            
+        </a-scene>
+    </body>
+</html>
